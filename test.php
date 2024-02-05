@@ -22,7 +22,7 @@ try{
     }
 }
 catch(PDOException $e){
-    echo "Erreur de connexxion à la base de données : ". $e->getMessage
+    echo "Erreur de connexxion à la base de données : ". $e->getMessage();
 }
-
+    
 ?>
